@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PAY UP!</title>
+	<meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="diceGame.css"></link>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<img class="titlePic" class="image-responsive" src="titlePic.png" alt="money dice">
+			</div>
+			<div class="col-md-8">
+				<h1 class="title">Welcome to PAY UP!</h1>
+				<h4 class="titleContinued">The most fun dice gambling game on the internet!</h4>
+			</div>
+			<div class="col-md-2">
+				<img class="titlePic1" src="titlePic.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="rollButton">
+				<button class="btn btn-sq-lg btn-block" class="rollButtonEdit" onclick="runDiceGame1();">Player One Roll First!</button>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" id="rollButton2">
+				<button class="btn btn-sq-lg btn-block" class="rollButtonEdit" onclick="runDiceGame2(playerOneDice);">Player Two ROLL!</button>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<p class="gameText" id=gameTextResults> How To Play: Player one rolls his two four-sided dice and he establishes his numbers. After that its all up to player two, he must roll a four-sided, six-sided, eight-sided, ten-sided, 12-sided, and a twenty-sided die hoping to roll one of the same numbers that player one previously established. The initial bet is $1 per player into the pot, if player two rolls one of player one's numbers then he wins. If player two doesn't roll one of player one's numbers on the first roll then he moves on to the next die, decreasing his odds of winning and going through two more betting cycles at most.</p>
+			</div>
+		</div>
+			<div class="col-md-1"></div>
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="playersBox">Player One Numbers</h1>
+			</div>
+			<div class="col-md-6">
+				<h1 class="playersBox">Player Two</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class=col-md-3>
+				<img id="playerOneRollOne">
+			</div>
+			<div class=col-md-3>
+				<img id="playerOneRollTwo">
+			</div>
+			<div class="col-md-6"class="playerTwoResultsBoth">
+				<h5 id="diceSideText"></h5>
+				<h1 id="playerTwoOutcome"></h1>
+			</div>
+		</div>				
+	</div>
+<script type="text/javascript" src="diceGameTwoNumber.js"></script>
+</body>
+
+</html>

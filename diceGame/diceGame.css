@@ -1,0 +1,74 @@
+.titlePic{
+	width:130%;
+	margin: 1em;
+	float:left;
+
+}
+.title{
+	margin:1.2em;
+	text-align: center;
+
+}
+.titleContinued{
+	margin-left:1em;
+	margin-right:1em;
+	text-align: center;
+}
+.titlePic1{
+	width:130%;
+	float:right;
+	margin:1em;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+body{
+	/*background: linear-gradient(red,red,green,green,green,red,red);
+	background-repeat: no-repeat;*/
+}
+.playersBox{
+	margin-top: 30px;
+	text-align:center;
+	outline-style: solid;
+	outline-offset: 3px;
+	/*float:center;
+	color:red;*/
+}
+.playerOneRollOneImage{
+	width:100%;
+}
+.btn{
+	color:white;
+	background-color: red;
+	margin-top: 10px;
+}
+#rollButtonEdit{
+	color:white;
+	text-align: center;
+	background-color: red;
+	outline-style: solid;
+	outline-color: red;
+}
+.gameText{
+	text-align: center;
+}
+#playerOneRollOne{
+	margin-top: 50px;
+	width:90%;
+}
+#playerOneRollTwo{
+	margin-top:50px;
+	width:90%;
+}
+#playerTwoOutcome{
+	color:red;
+	text-align: center;
+	font-size:1000%;
+}
+.gameText{
+	font-weight: bold;
+	font-size:100%;
+}
